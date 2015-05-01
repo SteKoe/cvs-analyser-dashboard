@@ -1,0 +1,20 @@
+{
+  "name": "cvs-analyser-dashboard",
+  "version": "1.0.0",
+  "homepage": "https://github.com/SteKoe/cvs-analyser-dashboard",
+  "authors": [
+    "Jonas Sprenger",
+    "Stephan Koeninger"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "amcharts": "~3.13.3",
+    "angular-dashboard-framework": "~0.8.0",
+    "adf-structures-base": "~0.1.0"
+  },
+  "resolutions": {
+    "angular-dashboard-framework": "~0.8.0",
+    "angular": ">=1 <1.3.0",
+    "bootstrap": "3.3.4"
+  }
+}

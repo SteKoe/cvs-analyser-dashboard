@@ -1,0 +1,24 @@
+body {
+    padding-top: 50px;
+    margin: 0 10px;
+}
+
+.chart {
+    width: 100%;
+    font-size: 11px;
+    height: 300px;
+}
+
+
+.chart.chart-400 {
+    height: 400px;
+}
+.chart.chart-500 {
+    height: 500px;
+}
+.chart.chart-750 {
+    height: 750px;
+}
+.chart.chart-1000 {
+    height: 1000px;
+}
