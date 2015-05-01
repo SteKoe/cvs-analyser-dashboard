@@ -10,7 +10,8 @@
   "dependencies": {
     "amcharts": "~3.13.3",
     "angular-dashboard-framework": "~0.8.0",
-    "adf-structures-base": "~0.1.0"
+    "adf-structures-base": "~0.1.0",
+    "wordcloud2.js": "*"
   },
   "resolutions": {
     "angular-dashboard-framework": "~0.8.0",

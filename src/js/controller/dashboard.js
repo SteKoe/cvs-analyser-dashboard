@@ -41,6 +41,12 @@ angular.module('de.joste.csvanalyser')
                             config: {
                                 location: 'http://localhost:8080/committerPerFile'
                             }
+                        },
+                        {
+                            type: 'commitMessageWordle',
+                            config: {
+                                location: 'http://localhost:8080/commitMessageWordCloud'
+                            }
                         }
                     ]
                 }]

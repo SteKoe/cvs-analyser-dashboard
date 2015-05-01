@@ -6,5 +6,6 @@ var csvAnalyser = angular.module('de.joste.csvanalyser', [
     'de.joste.adf.widget.commitsperdayofweek',
     'de.joste.adf.widget.commitspercommitter',
     'de.joste.adf.widget.changedfilespercommit',
-    'de.joste.adf.widget.committerperfile'
+    'de.joste.adf.widget.committerperfile',
+    'de.joste.adf.widget.commitmessagewordle'
 ]);
