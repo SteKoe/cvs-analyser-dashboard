@@ -56,7 +56,7 @@
                     "dashLength": 0
                 }],
                 "gridAboveGraphs": true,
-                "startDuration": 1,
+                "startDuration": 0,
                 "graphs": [{
                     "balloonText": "[[category]]<br><b>[[value]]</b> committer",
                     "fillAlphas": 0.8,

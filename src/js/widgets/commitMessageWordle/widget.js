@@ -50,18 +50,29 @@
                 return true;
             });
 
-            data = data.splice(0,200);
+            data = data.splice(0,100);
 
-            console.log(data);
             data.forEach(function (data) {
                 list.push([data.word, data.count]);
             });
 
 
-            WordCloud(document.getElementById('commitMessageWordleChart'), {
-                list: list,
-                rotateRatio: 0,
-                maxRotation: 0
-            });
+            var leCanvas = document.getElementById('commitMessageWordleChart');
+            var leParent = $('#commitMessageWordleChart').parent('.commitMessageWordle');
+
+            $(window).resize(drawWordle);
+
+
+            function drawWordle() {
+                leCanvas.width = leParent.width();
+
+                WordCloud(leCanvas, {
+                    list: list,
+                    clearCanvas: true,
+                    shuffle: false
+                });
+            }
+
+            drawWordle();
         }]);
 })();

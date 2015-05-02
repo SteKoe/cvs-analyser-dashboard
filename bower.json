@@ -11,7 +11,8 @@
     "amcharts": "~3.13.3",
     "angular-dashboard-framework": "~0.8.0",
     "adf-structures-base": "~0.1.0",
-    "wordcloud2.js": "*"
+    "wordcloud2.js": "*",
+    "jquery": "~2.1.4"
   },
   "resolutions": {
     "angular-dashboard-framework": "~0.8.0",

@@ -6,19 +6,19 @@ body {
 .chart {
     width: 100%;
     font-size: 11px;
-    height: 300px;
+    height: 200px;
 }
 
 
-.chart.chart-400 {
+.chart.chart-s {
     height: 400px;
 }
-.chart.chart-500 {
+.chart.chart-m {
     height: 500px;
 }
-.chart.chart-750 {
+.chart.chart-l {
     height: 750px;
 }
-.chart.chart-1000 {
+.chart.chart-xl {
     height: 1000px;
 }

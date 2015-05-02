@@ -57,6 +57,7 @@
                 "valueField": "commits",
                 "allLabels": [],
                 "balloon": {},
+                "startDuration": 0,
                 "legend": {
                     "align": "center",
                     "markerType": "circle"

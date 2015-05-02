@@ -47,7 +47,6 @@
 
             AmCharts.makeChart([widgetName, "Chart"].join(''), {
                 "type": "serial",
-                "theme": "light",
                 "rotate": true,
                 "dataProvider": data,
                 "valueAxes": [{
@@ -57,7 +56,7 @@
                     "logarithmic": true
                 }],
                 "gridAboveGraphs": true,
-                "startDuration": 1,
+                "startDuration": 0,
                 "graphs": [{
                     "balloonFunction": function(a) {
                         return [
