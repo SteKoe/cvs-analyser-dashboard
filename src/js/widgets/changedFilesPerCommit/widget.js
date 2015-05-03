@@ -61,15 +61,21 @@
                     "balloonFunction": function(a) {
                         return [
                             a.dataContext.date,
-                            a.dataContext.revision + ": " + a.dataContext.changes,
+                            a.dataContext.revision + ": " + a.dataContext.changes + " changed file(s).",
                             "<em>" + a.dataContext.message + "</em>",
                         ].join('<br>');
 
                         return "a";
                     },
+
+                    "bullet": "round",
+                    "bulletBorderAlpha": 1,
+                    "bulletColor": "#FFFFFF",
+                    "bulletSize": 5,
+                    "useLineColorForBulletBorder": true,
+                    "type": "column",
                     "fillAlphas": 0.8,
                     "lineAlpha": 0.2,
-                    "type": "column",
                     "title": "Amount of commits",
                     "valueField": "changes"
                 }],

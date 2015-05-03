@@ -50,7 +50,6 @@
 
             AmCharts.makeChart([widgetName, "Chart"].join(''), {
                 "type": "serial",
-                "theme": "light",
                 "dataProvider": data,
                 "valueAxes": [{
                     "gridColor": "#FFFFFF",
@@ -63,7 +62,7 @@
                     "balloonText": "[[category]]<br><b>[[value]]</b> commits",
                     "fillAlphas": 0.8,
                     "lineAlpha": 0.2,
-                    "type": "column",
+                    "type": "smoothedLine",
                     "title": "Amount Of Commits",
                     "valueField": "commits"
                 }],

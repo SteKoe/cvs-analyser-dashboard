@@ -47,7 +47,6 @@
 
             AmCharts.makeChart([widgetName, "Chart"].join(''), {
                 "type": "serial",
-                "theme": "light",
                 "rotate": true,
                 "dataProvider": data,
                 "valueAxes": [{

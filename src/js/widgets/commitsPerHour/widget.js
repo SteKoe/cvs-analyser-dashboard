@@ -52,12 +52,12 @@
 
             AmCharts.makeChart([widgetName, "Chart"].join(''), {
                 "type": "serial",
-                "theme": "light",
                 "dataProvider": data,
                 "valueAxes": [{
                     "gridColor": "#FFFFFF",
                     "gridAlpha": 0.2,
-                    "dashLength": 0
+                    "dashLength": 0,
+                    "logarithmic": true
                 }],
                 "gridAboveGraphs": true,
                 "startDuration": 0,
@@ -65,9 +65,9 @@
                     "balloonText": "[[category]]<br><b>[[value]]</b> commits",
                     "fillAlphas": 0.8,
                     "lineAlpha": 0.2,
-                    "type": "column",
                     "title": "Amount of commits",
-                    "valueField": "commits"
+                    "valueField": "commits",
+                    "type": "smoothedLine"
                 }],
                 "chartCursor": {
                     "categoryBalloonEnabled": false,
